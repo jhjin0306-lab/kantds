@@ -1,0 +1,29 @@
+{
+  "model_name": "ames_rf_tuned",
+  "saved_at": "2026-10-12 09:51:23",
+  "search_method": "Optuna",
+  "best_params": {
+    "n_estimators": 175,
+    "max_depth": 12
+  },
+  "cv_mean": 0.8212542415716282,
+  "cv_std": 0.06428073023916543,
+  "test_r2": 0.8910932915341476,
+  "base_model_config": {
+    "n_estimators": 100,
+    "max_depth": null,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "tuned_candidate_config": {
+    "n_estimators": 175,
+    "max_depth": 12
+  },
+  "tuning_comparison": {
+    "base_valid_r2_mean": 0.8190106975986836,
+    "tuned_valid_r2_mean": 0.8212542415716282,
+    "cv_mean_r2_gain": 0.0022435439729445728
+  },
+  "cv_minus_test": -0.06983904996251944,
+  "final_choice": "튜닝 후보"
+}
